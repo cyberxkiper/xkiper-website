@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://xkiper.com/sitemap.xml
