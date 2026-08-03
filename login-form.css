@@ -1,0 +1,93 @@
+body{
+    background-image:  url(Pics/photo-1582266255765-fa5cf1a1d501.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    color: azure;
+    height: 100%;    
+}
+.container{
+    display:grid;
+    margin-top: 100px;
+    backdrop-filter: blur(8px);
+    border: 3px solid white;
+    border-radius: 10px; 
+    height: 580px;
+    width: 380px;
+}
+.log{
+    font-weight: bolder;
+    font-size: xx-large
+    
+}
+input,
+button{
+    border: none;
+    outline: none;
+}
+input{
+    height: 45px;
+    width: 300px;
+    border-radius: 30px;
+   background: rgba(255, 255, 255, 0.1);
+    padding-left: 25px;
+    color: whitesmoke;
+    cursor: pointer
+}
+img{
+    border-radius: 50%;
+    height: 150px;
+    width: 125px;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    background: antiquewhite;
+    transition: 0.4s;
+    color: black;
+    padding-right: 25px;
+
+    
+}
+.submit:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(27, 27, 31);
+    opacity: 0.6;
+    height: 50px;
+    width: 305px;
+}
+::-webkit-input-placeholder{
+    color:  white;
+
+}
+::-webkit-input-placeholder:hover{
+    cursor: pointer;
+}
+.dont{
+    font-weight: bolder;
+    color: rgb(4, 230, 247);
+    text-decoration: none;
+    margin-left: 3px;
+}
+.Remember{
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+.remem:hover{
+    cursor: pointer
+}
+.Remember{
+    cursor: pointer
+}
+.Forgot{
+    margin-left: 70px;
+    color: white;
+    text-decoration: none
+}
