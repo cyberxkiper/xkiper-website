@@ -1,189 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BRJ5B4HYMT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KYCYTLBF1W');
-</script>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f4;
-    }
-
-    header {
-      background: #333;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
-    }
-
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 2rem;
-      gap: 2rem;
-    }
-
-    .contact-form {
-      background: #fff;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      max-width: 500px;
-      width: 100%;
-    }
-
-    .contact-form h2 {
-      margin-bottom: 1rem;
-    }
-
-    .form-group {
-      margin-bottom: 1rem;
-    }
-
-    .form-group label {
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-
-    .form-group input,
-    .form-group textarea {
-      width: 100%;
-      padding: 0.8rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    .form-group textarea {
-      resize: vertical;
-      min-height: 100px;
-    }
-
-    .contact-form button {
-      background: #333;
-      color: #fff;
-      padding: 0.8rem 1.5rem;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .contact-form button:hover {
-      background: #555;
-    }
-
-    .contact-info {
-      max-width: 300px;
-      background: #fff;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-
-    .contact-info h3 {
-      margin-bottom: 1rem;
-    }
-
-    .contact-info p {
-      margin: 0.5rem 0;
-    }
-
-    .social-icons a {
-      margin: 0 0.5rem;
-      color: #333;
-      text-decoration: none;
-      font-size: 1.5rem;
-    }
-
-    .social-icons a:hover {
-      color: #007BFF;
-    }
-
-    footer {
-      background: #222;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-      .back{
-        padding: 10px 20px;
-      margin-top: 1rem;
-      background-color: #0ff;
-      color: #000;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    .back:hover{
-        background-color: #00bfff;
-        text-decoration: underline;
-    }
-   
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style/navigation.css">
+    <link rel="stylesheet" href="style/contact.css">
 </head>
 <body>
-  <header>
-    <h1>Contact Us</h1>
-  </header>
-
-  <div class="container">
-    <div class="contact-form">
-      <h2>Send a Message</h2>
-      <form action="#" method="POST">
-        <div class="form-group">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" name="name" required />
+    <div class="nav-bar">
+        <div class="container">
+            <div class="page-name">
+                <img src="Pics/Xkiper Logo.png" class="page-logo" alt="">
+                <h1><span class="first-letters">KI</span><span class="last-letters">PER</span></h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html"><p class="active-page">Contact</a></li></p>
+            </ul>
         </div>
-        <div class="form-group">
-          <label for="email">Your Email</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div class="form-group">
-          <label for="subject">Subject</label>
-          <input type="text" id="subject" name="subject" />
-        </div>
-        <div class="form-group">
-          <label for="message">Your Message</label>
-          <textarea id="message" name="message" required></textarea>
-        </div>
-        <button type="submit">Send Message</a></button>
-      </form>
     </div>
-
-    <div class="contact-info">
-      <h3>Get in Touch</h3>
-      <p><i class="fas fa-phone"></i><a href="tel">233599063169</a></p>
-      <p><i class="fas fa-envelope"></i><a href="email"> richmondy823@gmail.com</a></p>
-      <p><i class="fas fa-map-marker-alt"></i> Domeabra, Ghana</p>
-
-      <div class="social-icons">
-        <a href="facebook.com/cyberxkiper"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
+    <div class="contact-container">
+        <center><h1><span class="first-letters">Contact</span> <span class="last-letters">Me</span></h1></center>
+        <div class="form-section">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <textarea name="Message" id="" placeholder="Enter Your Message"></textarea>
+            <a href="mailto:cyberxkiper@gmail.com">
+            <div class="email">
+                <img src="icons/gmail.png" alt="">
+                <p>Email Me</p>
+            </div>
+        </a>
+        </div>
+        <div class="social-media">
+            <a href="http://www.facebook.com/cyberxkiper"><img src="icons/communication.png" alt=""></a>
+            <a href="https://www.github.com/cyberxkiper/"><img src="icons/github.png" alt="" class="github"></a>
+            <a href="https://www.tiktok.com/@xkiper_?is_from_webapp=1&sender_device=pc"><img src="icons/tik-tok.png" alt=""></a>
+            <a href="http://www.youtube.com/@XKIP3R-ALLIN1"><img src="icons/youtube.png" alt=""></a>
+        </div>
     </div>
-  </div>
-<CENter>
-<a href="index.html"><button class="back">GO BACK</button></a>
-</CENter>
-  <footer>
-    &copy; 2025 XKIPER All rights reserved.
-  </footer>
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send/?phone=%2B233599063169&amp;text&amp;type=phone_number&amp;app_absent=0">
+            <div class="whatsapp-button">
+                <img src="icons/whatsapp.png" alt="">
+                <p>Whatsapp</p>
+            </div>
+        </a>
+        <a href="tel:+233599063169">
+            <div class="phone-button">
+                <img src="icons/telephone.png" alt="">
+                <p>Call Us</p>
+            </div>
+        </a>
+    </div>
+    <footer>
+         &copy; 2026 - Developed by <a href="about.html" class="me"><span>CYBER XKIPER</a>
+    </footer>
 </body>
 </html>
