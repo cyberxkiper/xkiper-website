@@ -87,6 +87,10 @@ footer{
     border-top: 2px solid gray;
     margin-top: 10px;
     color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .me{
     color: rgb(56, 56, 189);
