@@ -1,7 +1,10 @@
 body{
         background: linear-gradient(to right, #010630, rgb(102, 22, 22) );
         padding-top: 50px;
-        height: 5000px;
+        position: relative;
+}
+.nav-bar{
+        box-shadow: 0 1px 5px rgb(80, 80, 80);
 }
 .main-container{
         box-shadow: 0 1px 10px;
@@ -10,17 +13,27 @@ body{
         color: white;
         position: relative;
         backdrop-filter: blur(2px);
-        margin: 20px;
+        margin: 40px;
+        font-weight: 500;
+        transition: 0.5s ease;
+        height: 100%;
 }
-
+.main-container:hover{
+        transform: scale(1.02);
+        cursor: pointer;
+}
+main p{
+        margin-bottom: 15px;
+        max-width: 450px;
+}
 .image-container{
         position: absolute;
         top: 0;
         left:0;
         right: 0;
-        bottom: 0;
-        height: 100%;
+        height : 100%;
         z-index: -1;
+       
 }
 body{
         font-family: arial;
@@ -37,12 +50,16 @@ body{
 .vertical{
         display: flex;
         flex-direction: column;
+        width: 50%;
+        justify-content: space-between;
+        margin-right: 20%;
 }
 .button-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
         margin-top: 5px;
+}
+footer{
+        background-color: transparent;
+        backdrop-filter: blur(5px);
 }
 
 .buttons{
@@ -51,7 +68,8 @@ body{
         border: none;
         background-color: var(--primary-color);
         color: white;
-        box-shadow: 0 1px 5px;
+        box-shadow: 0 1px 5px gray;
+        transition: 0.5s;
 }
 header{
         background-color: #010630;
@@ -69,4 +87,30 @@ header{
         padding: 10px;
         font-size: small;
 
+}
+.image-section{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+}
+main img{
+        width: 100%;
+        height: 100%;
+        max-height: 200px;
+        max-width: 200px;
+}
+h2{
+        margin-bottom: 25px;
+        white-space: nowrap;
+}
+
+.buttons:hover{
+        transform: scale(1.01);
+        opacity: 0.8;
+        cursor: pointer;
+        background: white;
+        color: var(--primary-color);
+        box-shadow: 0 1px 5px ;
 }
