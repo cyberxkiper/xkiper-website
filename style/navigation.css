@@ -71,10 +71,6 @@ img{
     width: 100%;
 }
 
-@view-transition{
-    navigation: auto;
-}
-
 :root{
     --primary-color: #000428;
 }
@@ -99,26 +95,3 @@ footer{
     margin-left: 6px;
 }
 
-::view-transition-group{
-    transition: 1s ease;
-}
-
-main{
-    view-transition-name: page-content;
-}
-::view-transition-new(page-content){
-    animation-name: new-page;
-}
-::view-transition-old(page-content){
-    animation-name: old-page;
-}
-@keyframes old-page{
-    to{
-        translate: -100vw;
-    }
-}
-@keyframes new-page {
-    from{
-        translate: 100vw;
-    }
-}
