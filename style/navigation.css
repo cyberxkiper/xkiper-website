@@ -98,3 +98,27 @@ footer{
     color: rgb(56, 56, 189);
     margin-left: 6px;
 }
+
+::view-transition-group{
+    transition: 1s ease;
+}
+
+@root{
+    main: page-content;
+}
+::view-transition-new(page-content){
+    animation-name: new-page;
+}
+::view-transition-old(page-content){
+    animation-name: old-page;
+}
+@keyframes old-page{
+    to{
+        translate: -100vw;
+    }
+}
+@keyframes new-page {
+    from{
+        translate: 100vw;
+    }
+}
