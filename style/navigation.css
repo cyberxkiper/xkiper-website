@@ -103,8 +103,8 @@ footer{
     transition: 1s ease;
 }
 
-@root{
-    main: page-content;
+main{
+    view-transition-name: page-content;
 }
 ::view-transition-new(page-content){
     animation-name: new-page;
