@@ -1,6 +1,7 @@
 body{
         background: linear-gradient(to right, #010630, rgb(102, 22, 22) );
         padding-top: 50px;
+        padding-bottom: 50px;
         position: relative;
 }
 .nav-bar{
