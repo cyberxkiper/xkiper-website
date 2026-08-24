@@ -17,9 +17,10 @@ footer{
     flex-direction: column;
     position: fixed;
     bottom: 70px;
-    right: 5px;
+    right: -19px;
 
 }
+
 .social-media{
     display: flex;
     flex-direction: row;
