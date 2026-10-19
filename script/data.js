@@ -1,10 +1,10 @@
 const contentData = [
     {
-        headerName: 'Watch Movies for Free',
+        headerName: 'Watch and Download Movies for Free',
         info: 'Step into a world where entertainment knows no boundaries. Enjoy free movies without annoying ads.',
-        linkToSite: 'https://cinejoy.to/',
+        linkToSite: 'https://bingebang.st/',
         buttonContent: 'Watch Now',
-        linkToImage: 'Pics/cinejoy.svg'
+        linkToImage: 'Pics/bingebang.svg'
 
     },  
     {
