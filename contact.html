@@ -35,13 +35,11 @@
                 <div class="form-section">
                     <input type="text" placeholder="Name">
                     <input type="text" placeholder="Email">
-                    <textarea name="Message" id="" class="user_message" placeholder="Enter Your Message"></textarea>
-                    <div class="email-message">
-                        <a href="mailto:cyberxkiper@gmail.com?body=Hello👋%20*_XKIPER_*,%20I%20would%20like%20to%20get%20in%20touch%20with%20you.&amp;subject=Contacting%20XKIPER">
-                        <div class="email">
-                            <img src="icons/gmail.png" alt="">
-                            <p>Email Me</p>
-                        </div>
+                    <textarea name="Message" id="message" placeholder="Enter Your Message"></textarea>
+                    <a href="mailto:cyberxkiper@gmail.com" id="email-link">
+                    <div class="email">
+                        <img src="icons/gmail.png" alt="">
+                        <p>Email Me</p>
                     </div>
                 </a>
                 </div>
@@ -71,6 +69,13 @@
         <footer>
             &copy; 2026 - Developed by <a href="about.html" class="me"><span>CYBER XKIPER</a>
         </footer>
+        <script>
+            document.getElementById('email-link').addEventListener('click', function(event) {
+                event.preventDefault();
+                const message = document.getElementById('message').value;
+                window.location.href = 'mailto:cyberxkiper@gmail.com?subject=CONTACTING%20XKIPER&body=' + encodeURIComponent(message);
+            });
+        </script>
     </body>
     <script>
         document.querySelector('.email').addEventListener('click', function(){
