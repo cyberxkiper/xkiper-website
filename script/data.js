@@ -9,7 +9,7 @@ const contentData = [
     },  
     {
       headerName: 'Download Games FOR PC',
-        info: 'Access thousands of free torrent games without ads.',
+        info: 'Access thousands of free torrent games without ads. NB:For You to download games, you must <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/" target="_blank">download</a> and install qbittorent on your PC.',
         linkToSite: 'https://crotorrents.com/',
         buttonContent: 'Download Games',
         linkToImage: 'Pics/crotorrents.png'  
